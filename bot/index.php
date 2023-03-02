@@ -9,8 +9,6 @@ $youtube = new YouTubeDownloader();
 
 date_default_timezone_set('Asia/Tehran');
 
-$path = "https://api.telegram.org/bot5470506972:AAG5haKY329tYlJZRBQmSZ8AWA6k2Lh7I10";
-
 $update = json_decode(file_get_contents("php://input"), TRUE);
 
 $chatId = $update["message"]["chat"]["id"];
