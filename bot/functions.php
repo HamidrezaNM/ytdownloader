@@ -48,7 +48,7 @@ function sendMessageWithKeyboard($chat_id, $text, $keyboard, $reply = null)
         'chat_id' => $chat_id,
         'text' => $text,
 				'reply_to_message_id' => $reply,
-        'parse_mode' => 'HTML',
+				'parse_mode' => 'HTML',
         'reply_markup' => $keyboard,
     ];
 
