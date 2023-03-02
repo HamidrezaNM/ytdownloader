@@ -37,7 +37,7 @@ if ($callback) {
 	}
 
 	} catch (YouTubeException $e) {
-			sendMessage($callbackUserId, 'Something went wrong: ' . $e->getMessage());
+    sendMessage($callbackUserId, 'Something went wrong: ' . $e->getMessage());
 	}
 
 	$item = $links[$linkId];
